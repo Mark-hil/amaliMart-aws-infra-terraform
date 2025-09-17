@@ -1,0 +1,28 @@
+# Ignore Terraform variable files
+*.tfvars
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+# Ignore Terraform plan files
+*.tfplan
+# Ignore Terraform workspace files
+.terraform/
+# Ignore Terraform module cache
+.terraform/modules/
+# Ignore Terraform provider binaries
+.terraform/providers/
+# Ignore Terraform configuration backups
+*.tfbackup
+# Ignore Terraform local cache
+.terraform.local/
+# Ignore Terraform CLI configuration
+.terraformrc
+main_monolithic_backup.tf
+backend.hcl
+terraform.tfvars.example
+tfplan
+temp-*
