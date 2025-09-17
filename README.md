@@ -2,6 +2,9 @@
 
 This repository contains Terraform configurations for managing the AWS infrastructure for amaliMart. It includes a remote state backend using AWS S3 for state storage and DynamoDB for state locking.
 
+![Infrastructure DR Architecture](images/infra-dr (2).png)
+
+
 ## Table of Contents
 - [Remote State Setup](#remote-state-setup)
   - [Prerequisites](#prerequisites)
